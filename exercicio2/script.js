@@ -1,4 +1,6 @@
+let numero = Number(prompt('Digite um número para realizar a tabuada'));
+
 for(let i = 1; i<=10; i++){
-console.log(i*22)
+console.log(i*numero);
 }
-console.log('Tabuada de 22 ok')
+console.log(`Tabuada de ${numero} ok`);

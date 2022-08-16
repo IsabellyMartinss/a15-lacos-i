@@ -1,4 +1,10 @@
-let numero = Number(prompt("Veja aqui a tabuada de qualquer número, digite o número desejado"))
-for(let i = 0; i<=10; i++){
-    console.log(i*numero)
+const frutas = ["Morango", "Kiwi", "Uva", "Ameixa", "Banana"]
+
+for (let i = 0; i<frutas.length; i++){
+    console.log(`As frutas favoritas são, por ordem: \n${frutas[i]}`)
 }
+
+console.log("saiu do laço")
+
+
+
